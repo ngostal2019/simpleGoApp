@@ -25,3 +25,4 @@ func TestHomePage(t *testing.T) {
 		// assert status code of response recorder is OK
     assert.Equal(t, rr.Code, http.StatusOK, "HandlerFunc(Home) returned wrong status code: got %v want %v", rr.Code, http.StatusOK)
 }
+//Comment
